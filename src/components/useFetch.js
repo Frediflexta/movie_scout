@@ -4,14 +4,14 @@ const useFetch = (query) => {
   const [data, setData] = useState({
     name: "",
     seasons: [],
-    summary: "",
+    // summary: "",
     image: "",
   });
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  const groupSeasons = (songList, key = "season") => {
-    const groupedSeasonList = songList.reduce(function (ac, cv) {
+  const groupSeasons = (episodes, key = "season") => {
+    const groupedSeasonList = episodes.reduce(function (ac, cv) {
       ac[cv[key]] = ac[cv[key]] || [];
       ac[cv[key]].push(cv);
 

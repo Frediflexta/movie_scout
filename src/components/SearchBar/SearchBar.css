@@ -1,13 +1,12 @@
 .search-bar {
-  /* grid-column: 3 / 11;
-  grid-row: 2; */
-  grid-area: i;
+  grid-column: 3 / 11;
+  grid-row: 2/2;
+  width: 100%;
+  /* grid-area: i; */
 }
 
 input[type="text"] {
   width: 70%;
-  /* align-items: center;
-  justify-items: center; */
   margin-left: 160px;
   height: 46px;
   line-height: 46px;

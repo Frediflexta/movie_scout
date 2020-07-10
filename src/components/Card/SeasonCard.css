@@ -1,7 +1,14 @@
-.wrapper-card {
-  /* grid-column: 3 / 11;
-  grid-row: 3 / -1; */
-  grid-area: c;
+.card-container {
+  grid-column: 2 / 12;
+  grid-row: 3 / 3;
+  /* grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: repeat(3, 20vh); */
+  /* grid-area: c; */
   margin-top: 1em;
+
   /* border-radius: 30px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
