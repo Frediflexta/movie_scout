@@ -1,0 +1,22 @@
+.search-bar {
+  /* grid-column: 3 / 11;
+  grid-row: 2; */
+  grid-area: i;
+}
+
+input[type="text"] {
+  width: 70%;
+  /* align-items: center;
+  justify-items: center; */
+  margin-left: 160px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.5);
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 30px;
+  padding: 10px 20px;
+}

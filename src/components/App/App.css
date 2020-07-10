@@ -1,0 +1,48 @@
+/* .app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-wdith: 800px) {
+  .column {
+    flex: 1;
+  }
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 700px;
+  background: #f1ececb7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    "i i i i i i i i i i i i"
+    "c c c c c c c c c c c c";
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

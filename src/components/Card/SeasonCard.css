@@ -1,0 +1,7 @@
+.wrapper-card {
+  /* grid-column: 3 / 11;
+  grid-row: 3 / -1; */
+  grid-area: c;
+  margin-top: 1em;
+  /* border-radius: 30px; */
+}

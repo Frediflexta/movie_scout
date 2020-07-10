@@ -1,0 +1,10 @@
+.header-ui {
+  /* grid-column: 1 / -1;
+  grid-row: 1 / 2; */
+  grid-area: h;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 20px 30px;
+}
