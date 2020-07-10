@@ -24,28 +24,6 @@ const App = () => {
   if (error) {
   }
 
-  // if (data) {
-  //   console.log(data);
-  //   content = (
-  //     <>
-  //       {/* <div>{data.name}</div>
-  //       <div>{data.genres.join(" | ")}</div>
-  //       <div>{data.summary}</div>
-  //       <div>{data.status}</div>
-  //       <div>
-  //         {data.episodes.map((episode) => (
-  //           <li key={episode.id}>
-  //             Seasnon {episode.season}
-  //             {episode.name}
-  //           </li>
-  //         ))}
-  //       </div> */}
-
-  //       <SeasonCard data={data} />
-  //     </>
-  //   );
-  // }
-
   return (
     <div className="app-container">
       <Header />

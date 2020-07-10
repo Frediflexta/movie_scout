@@ -4,8 +4,6 @@ const useFetch = (query) => {
   const [data, setData] = useState({
     name: "",
     seasons: [],
-    // genres: [],
-    // status: "",
     summary: "",
     image: "",
   });
@@ -24,29 +22,6 @@ const useFetch = (query) => {
   };
 
   useEffect(() => {
-    // fetch(
-    //   `https://api.tvmaze.com/singlesearch/shows/?q=${query}&embed=episodes`
-    // )
-    //   .then((res) => res.json())
-    //   .then(
-    //     (result) => {
-    //       const {
-    //         name,
-    //         _embedded: { episodes },
-    //         genres,
-    //         status,
-    //         summary,
-    //         image,
-    //       } = result;
-    //       setIsLoading(true);
-    //       setData({ name, episodes, genres, status, summary, image });
-    //     },
-
-    //     (error) => {
-    //       setIsLoading(true);
-    //       setError(error);
-    //     }
-    //   );
     fetch(
       `https://api.tvmaze.com/singlesearch/shows/?q=${query}&embed=episodes`
     )
